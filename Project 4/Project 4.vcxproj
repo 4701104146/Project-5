@@ -127,7 +127,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Test.cpp" />
+    <Text Include="DonHang.txt" />
+    <Text Include="HangHoa.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Download\Project4\Đồ án\DSLK_ShopOnline\DSLK_ShopOnline\Account.h" />
+    <ClInclude Include="..\..\..\Download\Project4\Đồ án\DSLK_ShopOnline\DSLK_ShopOnline\DonHang.h" />
+    <ClInclude Include="..\..\..\Download\Project4\Đồ án\DSLK_ShopOnline\DSLK_ShopOnline\HangHoa.h" />
+    <ClInclude Include="..\..\..\Download\Project4\Đồ án\DSLK_ShopOnline\DSLK_ShopOnline\ListAccount.h" />
+    <ClInclude Include="..\..\..\Download\Project4\Đồ án\DSLK_ShopOnline\DSLK_ShopOnline\ListDonHang.h" />
+    <ClInclude Include="..\..\..\Download\Project4\Đồ án\DSLK_ShopOnline\DSLK_ShopOnline\ListHangHoa.h" />
+    <ClInclude Include="..\..\..\Download\Project4\Đồ án\DSLK_ShopOnline\DSLK_ShopOnline\Login.h" />
+    <ClInclude Include="..\..\..\Download\Project4\Đồ án\DSLK_ShopOnline\DSLK_ShopOnline\menu.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

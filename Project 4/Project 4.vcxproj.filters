@@ -15,7 +15,41 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Test.cpp">
+    <Text Include="HangHoa.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="DonHang.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Download\Project4\Đồ án\DSLK_ShopOnline\DSLK_ShopOnline\Account.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Download\Project4\Đồ án\DSLK_ShopOnline\DSLK_ShopOnline\DonHang.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Download\Project4\Đồ án\DSLK_ShopOnline\DSLK_ShopOnline\HangHoa.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Download\Project4\Đồ án\DSLK_ShopOnline\DSLK_ShopOnline\ListAccount.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Download\Project4\Đồ án\DSLK_ShopOnline\DSLK_ShopOnline\ListDonHang.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Download\Project4\Đồ án\DSLK_ShopOnline\DSLK_ShopOnline\ListHangHoa.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Download\Project4\Đồ án\DSLK_ShopOnline\DSLK_ShopOnline\Login.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Download\Project4\Đồ án\DSLK_ShopOnline\DSLK_ShopOnline\menu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
