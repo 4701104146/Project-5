@@ -30,7 +30,6 @@ namespace filePath {
     //(Mã hàng)~(Tên Hàng)~(Nơi sản xuất)~(Mau sắc)~(Giá cả)~(NgayNhapKho)~(Số lượng)
     const string g_FileHangHoa = "C:\\HangHoa.txt";//Thay doi vi tri luu file o day!
 
-    // File DonHang.txt duoc tao boi chuong trinh
     const string g_FileDonHang = "C:\\DonHang.txt";//Thay doi vi tri luu file o day!
 }
 using namespace filePath;
