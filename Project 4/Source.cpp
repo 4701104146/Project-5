@@ -27,7 +27,6 @@ namespace filePath {
     // File Admin.txt duoc tao truoc va dien username va password
     const string g_FileAdmin = "C:\\Admin.txt";//Thay doi vi tri luu file o day!
 
-    // File HangHoa.txt duoc tao truoc va dien cac thong tin cua hang hoa theo thu tu
     //(Mã hàng)~(Tên Hàng)~(Nơi sản xuất)~(Mau sắc)~(Giá cả)~(NgayNhapKho)~(Số lượng)
     const string g_FileHangHoa = "C:\\HangHoa.txt";//Thay doi vi tri luu file o day!
 
