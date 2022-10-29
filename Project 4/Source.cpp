@@ -315,21 +315,19 @@ string Order::getNgaySanXuat()
 //Program
 class Program
 {
-    // key_press nhận nút điều khiển từ chương trình.
+    // key_press nhan phim nhap
     char _cKeyPress = 0;
     int stt = 1;
-    // mảng các tài khoản admin, đơn hàng, hàng hóa,
+    // mang admin, don hang, hang hoa,
     vector<Account> sizeAdmin;
     vector<Item> sizeItems;
     queue<Order> sizeOrders;
 
-
 public:
-    // hàm lấy tài khoản và hàng hóa.
+    // ham lay tai khoan va hang hoa
     void loadAdmins();
     void loadItems();
-    //_____________________________
-
+    
     void run();
     void menu();
 
@@ -339,20 +337,15 @@ public:
     void order();
     void manage();
 
-    // quanLy//
+    // quan ly
     void menuManage();
     void loadingOrder();
     void manageItem();
 
-
-    // quan ly hang hoa//
+    // quan ly hang hoa
     void addItem();
     void removeItem();
     void updateItem();
-
-    //______________________
-
-
 
     // ham bo tro
     bool orderSuccess(Order& o);
@@ -362,11 +355,11 @@ public:
     void updateItem(const string& Ma, int product);
     bool foundItem(const string& Ma);
 
-
+    // Ghi file
     void writeToFile(Order& o, const string& path, bool state);
     void uploadFile(const string& path);
 
-    // hàm kiểm tra xem số sản phẩm (Soluong) truyền vô có lớn hơn số sản phẩm tối đa của sản phẩm có mã là (Ma) không
+    // ham check so luong san pham mua (Soluong)voi so luong san pham cua ma(Ma)
     bool greaterMaxProducts(const string& Ma, int Soluong);
 };
 void Program::loadAdmins()
