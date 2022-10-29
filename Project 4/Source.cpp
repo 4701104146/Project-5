@@ -82,8 +82,7 @@ class Item
     int _iGia = 0;
     string _strNgaySanXuat = "";
     int _iSoLuong = 0;
-
-
+    
 public:
     friend ifstream& operator >> (ifstream& in, Item& h);
     friend ofstream& operator << (ofstream& out, Item& h);
